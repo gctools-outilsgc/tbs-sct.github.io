@@ -17,7 +17,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <!--[if lt IE 9]>
 <link href="./assets/favicon.ico" rel="shortcut icon" />
 <link rel="stylesheet" href="./css/ie8-theme.min.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./js/jquery/1.11.1/jquery.min.js"></script>
 <script src="./js/ie8-wet-boew.min.js"></script>
 <![endif]-->
 <link rel="stylesheet" href="./css/CodeGCc.css" />
@@ -58,8 +58,8 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <div class="row">
 <div id="wb-sttl" class="col-md-8">
 <a href="index-en.html">
-<img alt="GCconnex Fox" src="assets/Fox-small.png">
-<span>Code <span class="bold-gc">GC</span>connex</span>
+<img alt="GCtools Fox" src="assets/Fox_idle.png">
+<span>Code <span class="bold-gc">GC</span>tools</span>
 </a>
 </div>
 <!--<section id="wb-srch" class="col-md-4 visible-md visible-lg">
@@ -76,7 +76,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 --></div>
 </div>
 </div>
-<nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<nav role="navigation" id="wb-sm" data-ajax-replace="../ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
 <div class="container nvbar">
 <h2>Topics menu</h2>
 <div class="row">
@@ -84,6 +84,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <li><a href="about-en.html"><span class="glyphicon glyphicon-info-sign glyth-yellow"></span> About</a></li>
 <li><a href="sched-en.html"><span class="glyphicon glyphicon-time"></span> Schedule</a></li>
 <li><a href="loc-en.html"><span class="glyphicon glyphicon-map-marker"></span> Location</a></li>
+<li><a href="vw-en.html"><span class="glyphicon glyphicon-globe"></span> Virtual workshops</a></li>
 <li><a href="codesprint-en.html"><span class="glyphicon glyphicon-wrench"></span> CodeSprint</a></li>
 </ul>
 </div>
@@ -107,55 +108,36 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <h1 id="wb-cont" property="name">Location</h1>
 <div class="row">
 <div class=" cols-sm-12 col-md-6">
-<address>John G. Diefenbaker Building<br /> 
-111 Sussex Drive, Ottawa, ON</address>
-<p>Activities will take place in the Algonquin Hall</p>
+<address>C.D. Howe Building<br/> 
+Niveau C-3, 235 Rue Queen<br/>
+Ottawa, On.<br/>
+K1A 0H5
+</address>
+
 <section>
-<h2>Public transit to and from John G. Diefenbaker Building</h2>
-<p>John G. Diefenbaker Building is served by the following <a href="http://www.octranspo1.com/splash" target="_blank">OCTranspo routes</a>:</p>
+<h2>Public transit to and from C.D. Howe Building</h2>
+<p>C.D. Howe Building is served by the following <a href="http://www.octranspo1.com/splash" target="_blank">OCTranspo routes</a>:</p>
 <ul>
-<li><a href="http://www.octranspo1.com/routes?lang=en&date=20151209&rte=9" target="_blank">Route 9</a></li>
+<li><a href="http://www.octranspo1.com/routes?lang=en&date=20170403&rte=9" target="_blank">Route 9</a></li>
+<li><a href="http://www.octranspo1.com/routes?lang=en&date=20170403&rte=12" target="_blank">Route 9</a></li>
 </ul>
 </section>
 <section>
 <h2>Places to get food</h2>
 <p>Food and drinks are not provided. So bring your lunch and something to drink.</p>
 <p>You can also purchase food and drinks at:</p>
-<ul>
-<li>Eurest Dining
-<section class="alert alert-info">
-<h3>Wednesday Menu</h3>
-<ul class="list-unstyled">
-	<li>Morning Editions: 3$ Breakfast sandwich</li>
-	<li>Soup Emporium: Cream of Tomato or Chicken Vegetable</li>
-	<li>Fresh Grille: Mushroom Swiss Burger</li>
-	<li>Menutainement: Beef Madras</li>
-	<li>Pizza Pi: BBQ Chicken Individual Pizza</li>
-	<li>Sandwich Central: Tuna Melt</li>
-</ul>
-<h3>Thursday Menu</h3>
-<ul class="list-unstyled">
-	<li>Morning Editions: Waffle Breakfast Sandwich</li>
-	<li>Soup Emporium: Cream of Chicken or Chipotle Tomato & Bean</li>
-	<li>Fresh Grille: Philly Cheese</li>
-	<li>Menutainement: Moroccan Chicken and Couscous</li>
-	<li>Pizza Pi: Pepperoni</li>
-	<li>Sandwich Central: Caprese Sandwich</li>
-</ul>
+<div class="alert alert-info">Coming Soon</div>
 
-</section>
-</li>
-</ul>
 </section>
 </div>
 
 <div class="map-styling col-sm-12 col-md-6">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.4670278363888!2d-75.69673318425454!3d45.44024414306219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04e741933cc7%3A0x577a368ebf96410f!2s111+Sussex+Dr%2C+Ottawa%2C+ON+K1N!5e0!3m2!1sen!2sca!4v1448992613152" width="700" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.4506265180744!2d-75.70399028485446!3d45.420416779100535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce045448321bb7%3A0xc05657e5b2768561!2s235+Queen+St%2C+Ottawa%2C+ON+K1A+0H5!5e0!3m2!1sen!2sca!4v1485026363689" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 </div>
 </div>
 <dl id="wb-dtmd">
 <dt>Date modified:&#32;</dt>
-<dd><time property="dateModified">2015-12-08</time></dd>
+<dd><time property="dateModified">2017-01-21</time></dd>
 </dl>
 </main>
 <!--<footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
